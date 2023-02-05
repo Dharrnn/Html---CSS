@@ -1,0 +1,18 @@
+/*Flexbox is a one-dimensional CSS layout that can control the way items 
+are spaced out and aligned within a container.*/
+
+*{
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 100%;/*Allign all the images in the page*/
+    height: 450px;
+    max-width: 300px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
