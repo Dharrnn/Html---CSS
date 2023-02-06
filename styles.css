@@ -54,7 +54,7 @@ li{
 
 li{
     display:list-item;
-    text-align: -webkit-match-parent;
+    
 }
 
 ::marker{
@@ -80,4 +80,32 @@ ul{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+blockquote{
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+blockquote{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+p{
+    display: block;
+    
+}
+
+a{
+    color: #333;
+}
+
+a:visited{
+    color: #eee;
 }
